@@ -26,5 +26,5 @@ const job = schedule.scheduleJob(date, () => {
 const { hour, minute, second } = job.nextInvocation()._date.c;
 
 console.log(
-  `\n A função será executada às ${hour}:${minute}:${second}`
+  `\n A funcao será executada às ${hour}:${minute}:${second}`
 );
