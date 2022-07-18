@@ -14,13 +14,12 @@ Date.prototype.addMinutes = function (minutes) {
 };
 
 let date = new Date();
-
 date = date.addMinutes(minutes);
 
 const job = schedule.scheduleJob(date, () => {
   const date = new Date();
   const time = `${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-  console.log(`função executada às ${time}`);
+  console.log(` Funcao executada às ${time}`);
 });
 
 const { hour, minute, second } = job.nextInvocation()._date.c;
