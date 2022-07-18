@@ -1,0 +1,24 @@
+{
+  "name": "node-schedule-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidoliveira-js/node-schedule-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidoliveira-js/node-schedule-study/issues"
+  },
+  "homepage": "https://github.com/davidoliveira-js/node-schedule-study#readme",
+  "dependencies": {
+    "node-schedule": "^2.1.0",
+    "readline-sync": "^1.4.10"
+  }
+}
